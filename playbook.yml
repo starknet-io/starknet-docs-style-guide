@@ -1,0 +1,46 @@
+site:
+  title: Starknet documentation style guide
+  url: https://docs.starknet.io/
+  #start_page: ROOT::index.adoc
+  start_page: documentation::index.adoc
+urls:
+  html_extension_style: indexify
+
+content:
+  sources:
+    - url: .
+      branches:
+        - 'HEAD'
+      start_paths:
+        - components/StarkNet
+
+ui:
+  bundle:
+    #    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: ./ui/ui-bundle.zip
+    snapshot: true
+  supplemental_files: ./ui/supplemental_ui
+
+asciidoc:
+  attributes:
+    idprefix: ''
+    #stem: '@'
+    stem: 'latexmath'
+    page-pagination: ''
+    experimental: ''
+
+antora:
+  extensions:
+    # Installing the lunr-extension requires installing it, and including the following line in your playbook.yml file.
+    # For info on installing the lunr-extension, see https://gitlab.com/antora/antora-lunr-extension#user-content-ui-assumptions.
+    # The lunr-tokenizer enables search results that include strings within code samples.
+    # For example, without the lunr-tokenizer, searching for `foo` will find `The foo function`, but it won't find `foo(arg1)`.
+    - require: './lunr-tokenizer'
+    - require: '@antora/lunr-extension'
+      index_latest_only: true
+
+output:
+  destinations:
+    - provider: fs
+      path: ./public_html/
+      clean: true

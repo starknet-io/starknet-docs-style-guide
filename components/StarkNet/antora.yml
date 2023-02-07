@@ -1,0 +1,11 @@
+name: documentation
+version: ~
+title: Starknet documentation stlpe guide
+nav:
+  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
