@@ -4,7 +4,7 @@
 [#about_this_guide]
 == About this guide
 
-This guide provides style guidelines and preferred term usage for https://starknet.io/, including http://docs.starknet.io. Use it as a supplement to the following style guides:
+This guide provides style guidelines and preferred term usage for link:https://starknet.io/[the Starknet website], including link:http://docs.starknet.io[docs.starknet.io]. Use it as a supplement to the following style guides:
 
 [horizontal]
 link:https://developers.google.com/style[_Google developer documentation style guide_]:: The primary source of style guidance for Starknet documentation.
