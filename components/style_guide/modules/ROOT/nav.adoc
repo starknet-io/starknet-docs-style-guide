@@ -1,0 +1,4 @@
+About Starknet
+
+* xref:index.adoc[Overview]
+* xref:glossary.adoc[Glossary]
