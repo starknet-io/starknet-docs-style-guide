@@ -1,0 +1,15 @@
+#title: style_guide
+title: Starknet documentation style guide
+name: ROOT
+version: ~
+nav:
+  - modules/ROOT/nav.adoc
+#  - modules/ROOT/nav.adoc # What is Starknet (temporary landing page)
+asciidoc:
+  attributes:
+    page-pagination: ''
+    experimental: ''
+    imagesdir: images
+# This attribute is defined to differentiate between the Starknet docs style guide
+# and the StarkEx style guide, which is shared.
+    starknet:

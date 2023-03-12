@@ -1,0 +1,6 @@
+[id="glosssary"]
+= Glossary
+
+ifdef::starknet[]
+Hello Starknet
+endif::[]
