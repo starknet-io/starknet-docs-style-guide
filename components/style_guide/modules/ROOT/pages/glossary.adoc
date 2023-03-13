@@ -11,13 +11,6 @@
 
 == A
 
-[#term_id]
-absolute path (noun)::
-The location of a file or directory from the root directory (/). Provides all information to locate a file or directory. +
-*Use it*: Yes +
-*Incorrect forms*: +
-*See also*:
-
 [#ampersand]
 &::
 Ampersand instead of the word _and_. +
@@ -25,11 +18,11 @@ Ampersand instead of the word _and_. +
 ** Do not use as a substitute for the word _and_ in sentences.
 ** Do not use in headings or table of contents unless space is an issue
 
-[#term_id]
-Admin::
-*Use it*: Yes. Use proper noun (caps) for an active component of a system, such as _The Admin authorizes the user_. +
-*Incorrect forms*: admin +
-*See also*:
+// [#admin]
+// Admin::
+// *Use it*: Yes. Use proper noun (caps) for an active component of a system, such as _The Admin authorizes the user_. +
+// *Incorrect forms*: admin +
+// *See also*:
 
 [#application]
 application::
@@ -38,7 +31,7 @@ The operator's user-facing software that lets the user interact with the StarkEx
 [horizontal]
 Use it::: Yes. Use as a word, not as a proper noun, unless it is a unique component of the system. +
 Example::: _The application passes the username to the database._ +
-Incorrect forms::: _Application_ +
+Incorrect forms::: _The Application_ +
 See also::: N/A
 
 == B
