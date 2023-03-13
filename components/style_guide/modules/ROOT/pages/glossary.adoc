@@ -1,0 +1,431 @@
+[id="glosssary"]
+= Glossary
+
+// Template
+// [#term_id]
+// term::
+// *Description*: +
+// *Use it*: yes +
+// *Incorrect forms*: +
+// *See also*:
+
+== A
+
+[#ampersand]
+&::
+Ampersand instead of the word _and_. +
+*Use it*: Yes, but only for specific cases:
+** Do not use as a substitute for the word _and_ in sentences.
+** Do not use in headings or table of contents unless space is an issue
+
+// [#admin]
+// Admin::
+// *Use it*: Yes. Use proper noun (caps) for an active component of a system, such as _The Admin authorizes the user_. +
+// *Incorrect forms*: admin +
+// *See also*:
+
+[#application]
+application::
+The operator's user-facing software that lets the user interact with the StarkEx system.
++
+[horizontal]
+Use it::: Yes. Use as a word, not as a proper noun, unless it is a unique component of the system. +
+Example::: _The application passes the username to the database._ +
+Incorrect forms::: _The Application_ +
+See also::: N/A
+
+== B
+
+
+// Do not use: back-end, backend
+// Use: back end
+// Why: back-end is used as an adjective only.
+
+// [#builtin]
+// term::
+// *Description*: +
+// *Use it*: Yes. +
+// *Incorrect forms*: +
+// *See also*:
+// built-in
+//
+// builtin
+//
+// This should quiet standard spelling flag
+
+== C
+
+[#committee]
+Committee::
+Refers to the Data Availability Committee.
++
+[horizontal]
+Use it::: Do not use as a standalone term when referring to the Data Availability Committee, or the Committee Service. +
+Example::: _The Data Availability Committee (DAC) stores Validium vaults' balances, providing a trusted solution to make your users’ data available_ +
+Incorrect forms::: _The Committee provides a trusted solution to make your users’ data available_ +
+See also::: xref:#data_availability_committee[Data Availability Committee]
+
+[#committee_service]
+Committee Service::
+Refers to the Data Availability Committee Service, an application that DAC members must use.
++
+[horizontal]
+Use it::: Yes. +
+Example::: _The Data Availability Committee (DAC) stores Validium vaults' balances, providing a trusted solution to make your users’ data available_ +
+Incorrect forms::: _The Committee provides a trusted solution to make your users’ data available_ +
+See also::: xref:#data_availability_committee[Data Availability Committee]
+
+// [#term_id]
+// term::
+// Definition/description
+// +
+// [horizontal]
+// Use it::: Yes/No. [Additional guidance]  +
+// Example::: _The application passes the username to the database._ +
+// Incorrect forms::: _Application_ +
+// See also::: N/A
+
+Committee Service
+
+== D
+
+[id="data_availability_committee"]
+Data Availability Committee::
+Provides off-chain data availability, as opposed to ZK-Rollup mode, which stores data on-chain.
++
+[horizontal]
+Use it::: Yes. You can also use the acronym _DAC_. +
+Example::: _The Data Availability Committee (DAC) stores Validium vaults' balances, providing a trusted solution to make your users’ data available_ +
+Incorrect forms::: _The Committee_ +
+See also::: xref:#committee[Committee]
+
+
+DeFi::
+Decentralized finance
+
+
+Apply acronym
+
+DeFi-pooling
+
+DeFi Pooling
+
+Existing style, maintain consistency
+
+== E
+
+Ethereum MainNet, Ethereum-Mainnet
+
+Ethereum Mainnet
+
+Existing style, maintain consistency
+
+Exchange Application's smart contract
+
+StarkEx smart contract
+
+Many possible variants to explain the contract, this is the simplest we have identified thus far
+
+== F
+
+front-end, frontend
+
+front end
+
+Should this be customer Application OR front-end (when used as an adjective)? When talking to customer bias this to customer's responsibility area (customer Application), rather than the technical domain
+
+full withdrawl, full-withdrawl
+
+Full Withdrawal
+
+caps for the adjective or noun of a component of the system
+
+== G
+
+governer
+
+Governer
+
+caps for a noun of an active component in the system
+
+== H
+== I
+
+ID, id
+
+Id
+
+Existing style, maintain consistency
+
+investment token, investment-token
+
+Investment token
+
+Matches style of Ride ticket
+
+== J
+== K
+== L
+
+L2 rollup
+
+L2 Rollup
+
+as per "On the Road" Medium post
+
+Layer 1, l1, layer 1
+
+L1
+
+Avoid using. Instead, use _on-chain_ as a noun or adjective. If necessary to use the term, use the acronym _L1_ rather than _layer 1_.
+
+L2
+
+Avoid using. Instead, use _off-chain_ as a noun or adjective. If necessary to use the term, use the acronym _L2_ rather than _layer 2_.
+
+== M
+
+Main-Net, Main-net, MainNet, main net, main-net, mainNet
+
+Mainnet
+
+
+
+== N
+
+non-deterministic
+
+nondeterministic
+
+Existing style, maintain consistency
+
+== O
+
+off boarding, off-boarding
+
+offboarding
+
+Existing style, maintain consistency
+
+off chain, offchain
+
+off-chain
+
+as an adjective off-chain would be the form plus this style has been extended for all uses
+
+on boarding, on-boarding
+
+onboarding
+
+Existing style, maintain consistency
+
+on chain, onchain
+
+on-chain
+
+as an adjective on-chain would be the form plus this style has been extended for all uses
+
+operator
+
+Operator
+
+caps for a noun of an active component of the system
+
+Optimistic rollup, optimistic rollup
+
+Optimistic Rollup
+
+proper noun
+
+== P
+
+permissionless
+
+permissionlessly
+
+This should quiet the standard spelling flag
+
+pool
+
+Pool
+
+proper noun
+
+pool manager, pool-manager
+
+Pool Manager
+
+caps for noun of an active component of the system
+
+pools
+
+Pools
+
+proper noun
+
+pseudo code, pseudocode
+
+pseudo-code
+
+Existing style, maintain consistency
+
+== Q
+== R
+
+re-balancing
+
+rebalancing
+
+Existing style, maintain consistency
+
+ride
+
+Ride
+
+caps for noun (and verb) of an active component of the system
+
+Ride Ticket, ride ticket
+
+Ride ticket
+
+Matches style of Investment token
+
+rollup
+
+Rollup
+
+proper noun for all rollup types - IF compounded proper noun for leading name also
+
+== S
+
+Shared Prover
+
+SHARP
+
+Define SHARP as Shared Prover at first use only, then apply acronym
+
+Sharp, sharp
+
+SHARP
+
+when using acronym of ShaREd Prover
+
+Side chain, Side-chain, side chain, side-chain
+
+sidechain
+
+Existing style, maintain consistency
+
+Side chains, Side-chains, side chains, side-chains
+
+sidechains
+
+Existing style, maintain consistency
+
+smart-contract
+
+smart contract
+
+Existing style, maintain consistency
+
+Stark, stark
+
+STARK
+
+style is all caps for this proper noun
+
+Stark-Ex, Stark-ex, Starkex, starkex
+
+StarkEx
+
+Proper noun's form
+
+StarkEx Contract, StarkEx Smart Contract, StarkEx smart Contract, Starkex Contract
+
+StarkEx smart contract
+
+Trial style: Proper noun plus "common" noun
+
+StarkNet Core contract, StarkNet core Contract, StarkNet core contract
+
+StarkNet Core Contract
+
+Proper noun for active component of the system (special case)
+
+StarkWare Exchange smart contract
+
+StarkEx smart contract
+
+Many possible variants, we selected this as the simplest so far
+
+StrakEx
+
+StarkEx
+
+typo fix
+
+StrakGate
+
+StarkGate
+
+typo fix
+
+StrakNet
+
+StarkNet
+
+typo fix
+
+Strategy Token, strategy token
+
+Strategy token
+
+Existing style, maintain consistency
+
+== T
+
+time lock, time-lock
+
+timelock
+
+Existing style, maintain consistency
+
+== U
+== V
+
+Validity rollup, validity rollup
+
+Validity Rollup
+
+
+
+vault
+
+Vault
+
+caps for noun of an active component in the system
+
+verifier
+
+Verifier
+
+caps for noun of an active component of the system
+
+== W
+
+world-wide
+
+worldwide
+
+Stay consistent!
+
+== X
+== Y
+== Z
+
+ZK-rollup, ZKRollup, zk-rollup, zkRollup
+
+ZK-Rollup
+
+Existing style, maintain consistency
+

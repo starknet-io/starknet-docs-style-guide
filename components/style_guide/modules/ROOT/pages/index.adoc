@@ -1,9 +1,6 @@
 [id="overview"]
 = Starknet supplementary style guide
 
-[#about_this_guide]
-== About this guide
-
 This guide provides style guidelines and preferred term usage for link:https://starknet.io/[the Starknet website], including link:http://docs.starknet.io[docs.starknet.io]. Use it as a supplement to the following style guides:
 
 [horizontal]
@@ -11,7 +8,7 @@ link:https://developers.google.com/style[_Google developer documentation style g
 link:https://redhat-documentation.github.io/supplementary-style-guide/[_Red Hat supplementary style guide for product documentation_]:: Provides additional guidance or overrides guidance in the _Google developer documentation style guide_.
 
 [#how_to_use_this_guide]
-=== How to use this guide
+== How to use this guide
 
 When looking for style guidance, use these guides in the following order:
 
@@ -22,7 +19,7 @@ When looking for style guidance, use these guides in the following order:
 If you cannot find helpful information or if you must deviate from the guidance in any of these guides, https://github.com/starknet-io/starknet-docs-style-guide/issues[open an issue]. The stakeholders can then discuss and determine if and how to address the issue.
 
 [[_related_red_hat_guides]]
-=== Related guides
+== Related guides
 
 You can use the following reference guides for technical writers:
 
